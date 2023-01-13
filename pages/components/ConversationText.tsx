@@ -11,7 +11,7 @@ import transformMessage from "../../utils/transformMessage"
 import Message from "./Message"
 import { User } from "firebase/auth"
 import SendIcon from '@mui/icons-material/Send'
-import { KeyboardEventHandler, useRef, useState } from "react"
+import { KeyboardEventHandler, useRef, useState, MouseEventHandler } from "react"
 import { doc, addDoc, collection, serverTimestamp } from "firebase/firestore"
 
 const StyledConversationHeader = styled.div`
